@@ -150,6 +150,55 @@ document.write("<br>")
 document.write("Currency in PKR")
 document.write("<br>")
 document.write("Total Currency in PKR: "+totalCurrency)
+// Q10
+var expression=2
+var result=((expression+5)*10)/2
+document.write("<br>")
+document.write("<br>")
+document.write("The Result of the expression after calculations is "+result)
+// Q11
+var currentYear=2023
+var birthYear=2000
+var age=currentYear-birthYear
+document.write("<br>")
+document.write("<br>")
+document.write("Current Year: "+currentYear)
+document.write("<br>")
+document.write("Birth Year: "+birthYear)
+document.write("<br>")
+document.write("Age: "+age)
+// Q12
+var r=20
+var c=2*3.142*r
+var a=3.142*r**2
+document.write("<br>")
+document.write("<br>")
+document.write("Radius of a Circle: "+r)
+document.write("<br>")
+document.write("The Circumference is: "+c)
+document.write("<br>")
+document.write("The Area is: "+a)
+// Q13
+var favSnack="chocolate"
+var currentAge=23
+var maxAge=65
+var estimatedSnackPerDay=2
+var lifeTimeSnack=((maxAge-currentAge)*365)*estimatedSnackPerDay
+document.write("<br>")
+document.write("<br>")
+document.write("Favourite Snack: "+favSnack)
+document.write("<br>")
+document.write("Current Age: "+currentAge)
+document.write("<br>")
+document.write("Estimated Maximum Age: "+maxAge)
+document.write("<br>")
+document.write("Amount of Snack Per Day: "+estimatedSnackPerDay)
+document.write("<br>")
+document.write("You will need "+lifeTimeSnack+" "+favSnack+" to last you until the ripe old age of "+maxAge)
+
+
+
+
 
 
 
