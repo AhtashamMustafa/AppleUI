@@ -72,18 +72,21 @@ document.write("<br>")
 document.write(number + " X 9 = " + (number * 9))
 document.write("<br>")
 document.write(number + " X 10 = " + (number * 10))
-// Q6
+Q6
 let subject1=prompt("Subject 1 Name")
 let subject2=prompt("Subject 2 Name")
 let subject3=prompt("Subject 3 Name")
 var totalMarks=100
-var obtainedMarks1=parseFloat(prompt("Enter obtained marks for "+subject1))
-var obtainedMarks2=parseFloat(prompt("Enter obtained marks for "+subject2))
-var obtainedMarks3=parseFloat(prompt("Enter obtained marks for "+subject3))
+var obtainedMarks1=prompt("Enter obtained marks for "+subject1)
+var obtainedMarks2=prompt("Enter obtained marks for "+subject2)
+var obtainedMarks3=prompt("Enter obtained marks for "+subject3)
 document.write("Subject              Obtained Marks               Percetage");
-document.write(subject1+"          "+obtainedMarks1+"          "+(obtainedMarks1/totalMarks)*100);
-document.write(subject1+"          "+obtainedMarks1+"          "+(obtainedMarks1/totalMarks)*100);
-document.write(subject1+"          "+obtainedMarks1+"          "+(obtainedMarks1/totalMarks)*100);
+document.write("<br>")
+document.write(subject1+" "+obtainedMarks1+" "+(+obtainedMarks1/totalMarks)*100+" %");
+document.write("<br>")
+document.write(subject2+" "+obtainedMarks2+" "+(+obtainedMarks2/totalMarks)*100);
+document.write("<br>")
+document.write(subject3+" "+obtainedMarks3+" "+(+obtainedMarks3/totalMarks)*100);
 
 
 
