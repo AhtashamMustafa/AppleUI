@@ -27,6 +27,7 @@ document.write("The Value of a-- is "+a)
 a--
 document.write("<br>")
 document.write("Now Value of a is "+a)
+
 //Q2
 var a=2
 var b=1
@@ -46,9 +47,11 @@ document.write("<br>")
 document.write("At --a - --b + ++b value is 1 - 0 + 2 = 3")
 document.write("<br>")
 document.write("At --a - --b + ++b + b-- value is 1 - 0 + 2 + 0 =3 ")
+
 // Q3
 var greet=prompt("Please write your name below")
 alert("Welcome "+greet)
+
 // Q5
 var number=prompt("Write num to get desired table") || 5;
 document.write("<br>")
@@ -72,7 +75,8 @@ document.write("<br>")
 document.write(number + " X 9 = " + (number * 9))
 document.write("<br>")
 document.write(number + " X 10 = " + (number * 10))
-Q6
+
+// Q6
 let subject1=prompt("Subject 1 Name")
 let subject2=prompt("Subject 2 Name")
 let subject3=prompt("Subject 3 Name")

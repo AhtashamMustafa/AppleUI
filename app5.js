@@ -3,6 +3,7 @@ var a=3
 var b=5
 var sum=a+b
 document.write("The Sum of "+a+" and "+b+" "+"is "+sum)
+
 // Q2
 var subtract=a-b
 document.write("<br>")
@@ -16,6 +17,7 @@ document.write("The division of "+a+" and "+b+" "+"is "+division)
 var mode=a%b
 document.write("<br>")
 document.write("The reminder of "+a+" and "+b+" "+"is "+mode)
+
 // Q3
 var value;
 document.write("<br>")
@@ -36,6 +38,7 @@ document.write("Value after decrement: "+value)
 value %=3 
 document.write("<br>")
 document.write("The reminder is: "+value)
+
 // Q4
 var ticketPrice=600
 var ticketBuyers=5
@@ -43,6 +46,7 @@ var cost=ticketPrice*ticketBuyers
 document.write("<br>")
 document.write("<br>")
 document.write("The cost of to buy "+ticketBuyers+" tickets to a movie is "+cost+"PKR")
+
 // Q5
 var c=4
 var d=1
@@ -95,6 +99,7 @@ var d=10
 var ans10=c*d
 document.write("<br>")
 document.write(c+" X "+d+" = "+ans10)
+
 // Q6
 var temp1=25
 var temp2=70
@@ -107,6 +112,7 @@ var temp4=70
 var centigrade1=(temp4-32)*5/9
 document.write("<br>")
 document.write(temp4+"\u00B0F is "+centigrade1+"\u00B0C")
+
 // Q7
 var item1=650
 var item2=100
@@ -128,6 +134,7 @@ document.write("Shipping Charges "+shippingCharges)
 document.write("<br>")
 document.write("<br>")
 document.write("Total cost of your order is "+totalCost)
+
 // Q8
 var totalMarks=980
 var marksObtained=804
@@ -139,6 +146,7 @@ document.write("<br>")
 document.write("Marks Obtained "+marksObtained)
 document.write("<br>")
 document.write("Percentage "+percentage+"%")
+
 // Q9
 var usDollars=10
 var saudiRial=25
@@ -150,12 +158,14 @@ document.write("<br>")
 document.write("Currency in PKR")
 document.write("<br>")
 document.write("Total Currency in PKR: "+totalCurrency)
+
 // Q10
 var expression=2
 var result=((expression+5)*10)/2
 document.write("<br>")
 document.write("<br>")
 document.write("The Result of the expression after calculations is "+result)
+
 // Q11
 var currentYear=2023
 var birthYear=2000
@@ -167,6 +177,7 @@ document.write("<br>")
 document.write("Birth Year: "+birthYear)
 document.write("<br>")
 document.write("Age: "+age)
+
 // Q12
 var r=20
 var c=2*3.142*r
@@ -178,6 +189,7 @@ document.write("<br>")
 document.write("The Circumference is: "+c)
 document.write("<br>")
 document.write("The Area is: "+a)
+
 // Q13
 var favSnack="chocolate"
 var currentAge=23
