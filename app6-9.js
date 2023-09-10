@@ -84,9 +84,9 @@ document.write("Subject              Obtained Marks               Percetage");
 document.write("<br>")
 document.write(subject1+" "+obtainedMarks1+" "+(+obtainedMarks1/totalMarks)*100+" %");
 document.write("<br>")
-document.write(subject2+" "+obtainedMarks2+" "+(+obtainedMarks2/totalMarks)*100);
+document.write(subject2+" "+obtainedMarks2+" "+(+obtainedMarks2/totalMarks)*100+" %");
 document.write("<br>")
-document.write(subject3+" "+obtainedMarks3+" "+(+obtainedMarks3/totalMarks)*100);
+document.write(subject3+" "+obtainedMarks3+" "+(+obtainedMarks3/totalMarks)*100+" %");
 
 
 
