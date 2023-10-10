@@ -163,5 +163,22 @@
 // }
 
 // Q17
-var userInput="Pakistan"
-var lastChar= userInput.lastIndexOf()
+// var userInput="Pakistan"
+// var lastChar= userInput.charAt(userInput.length-1)
+// console.log(lastChar)
+
+// Q18
+// let string = "The quick brown fox jumps over the lazy dog";
+// let wordToCount = "the";
+
+// string = string.toLowerCase().split(' ');
+// let count = 0
+
+// for (let i = 0; i < string.length; i++) {
+//     if (string[i] == wordToCount) {
+//         count++;
+//     }
+// }
+// document.write(`Text: ${string}.`)
+// document.write(`<br>`)
+// document.write(`There are ${count} occurrence(s) of word "${wordToCount}".`)
